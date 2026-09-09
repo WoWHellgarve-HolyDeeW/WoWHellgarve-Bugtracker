@@ -1,0 +1,117 @@
+{
+  "name": "Gameplay bug",
+  "description": "Report one reproducible problem on WoWHellgarve.",
+  "title": "[Bug] ",
+  "labels": [
+    "kind:bug",
+    "status:triage"
+  ],
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Search existing reports first. Describe the observed problem; the team will investigate its cause. Never post passwords, login tokens or raw authentication captures."
+      }
+    },
+    {
+      "type": "input",
+      "id": "location",
+      "attributes": {
+        "label": "Quest, NPC, map or dungeon",
+        "description": "Include IDs and difficulty when known. Unknown IDs are allowed."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "context",
+      "attributes": {
+        "label": "Character and test context",
+        "description": "Level, class, faction, start zone and group. Include relevant quest history; no account email/password."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "build",
+      "attributes": {
+        "label": "Client build and server revision",
+        "description": "Use the observed client build. Add the server revision if known; otherwise write unknown."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "steps",
+      "attributes": {
+        "label": "Steps to reproduce",
+        "description": "Number the steps from login or a known starting state."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "actual",
+      "attributes": {
+        "label": "What happened?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "expected",
+      "attributes": {
+        "label": "What should happen?",
+        "description": "Explain the expected behavior and add a reference if available."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "frequency",
+      "attributes": {
+        "label": "Reproduction frequency",
+        "options": [
+          "Every attempt",
+          "Sometimes",
+          "Once",
+          "Not retested"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "gm",
+      "attributes": {
+        "label": "GM commands or progression skips",
+        "description": "List commands that changed level, quests, teleports or phases. Write none if no commands were used."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "evidence",
+      "attributes": {
+        "label": "Screenshots, video or sanitized logs",
+        "description": "For login failures include local time/timezone and whether the realm list appeared. Use capture IDs for sniffs; share raw files through the private library."
+      }
+    }
+  ]
+}

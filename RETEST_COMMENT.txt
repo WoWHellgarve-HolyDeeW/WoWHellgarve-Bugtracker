@@ -1,0 +1,10 @@
+Retest of issue:
+Installed core revision:
+Applied SQL/release:
+Client build:
+Date and timezone:
+Character context and GM commands:
+Original steps repeated:
+Result: PASS / FAIL / BLOCKED
+Evidence:
+Relevant regression checked:

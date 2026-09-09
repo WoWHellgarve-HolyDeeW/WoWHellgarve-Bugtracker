@@ -1,0 +1,16 @@
+Local ID,Title,Priority,Status,Cause,Evidence,Delivery,Retest,GitHub URL
+HG-QA-001,Login disconnects intermittently,P0,Needs reproduction,Unknown,Not applicable,Not delivered,Pending,Pending publication
+HG-QA-002,DK cannot interact with Instructor Razuvious,P1,Needs reproduction,Unknown,Not reviewed,Not delivered,Pending,Pending publication
+HG-QA-003,Mardum introduction has no available quests,P1,Needs reproduction,Unknown,Not reviewed,Not delivered,Pending,Pending publication
+HG-QA-004,Exile's Reach quest interactions block progression,P1,Needs reproduction,Unknown,Not reviewed,Not delivered,Pending,Pending publication
+HG-QA-005,Level 10 LFG queue or teleport fails,P1,Needs reproduction,Unknown,Not reviewed,Not delivered,Pending,Pending publication
+HG-QA-006,Temple of the Jade Serpent spawns rejected,P1,Awaiting retest,Port / DB mapping,Located,SQL applied: owner report,Pending,Pending publication
+HG-QA-007,Midnight quest is not automatically offered at level 80,P1,Needs reproduction,Unknown,Partial,Not delivered,Pending,Pending publication
+HG-QA-008,Cannot accept Midnight from the Adventure Guide,P1,Awaiting deployment,Core logic,Located,Core compiling: owner report,Pending,Pending publication
+HG-QA-009,Campsite groups are not saved,P2,Investigating,Implementation missing,Located,Not delivered,Pending,Pending publication
+HG-QA-010,"Trading Post purchase, refund and freeze are incomplete",P2,Investigating,Implementation missing,Partial,Not delivered,Pending,Pending publication
+HG-QA-011,QA route to TWW and Midnight,P1,Needs decision,Product request,Not applicable,Not delivered,Pending,Pending publication
+HG-QA-012,Four additional bag slots without authenticator,P3,Needs decision,Product request,Not applicable,Not delivered,Pending,Pending publication
+HG-QA-013,Replace Body 1 and Body 2 UI labels,P3,Needs decision,Client UI request,Not applicable,Not delivered,Pending,Pending publication
+HG-QA-014,Publish the staff tracker,P2,In progress,Workflow request,Not applicable,Local draft,Pending,Pending publication
+HG-QA-015,DH introductory Vault spawns rejected,P1,Awaiting retest,Port / DB mapping,Located,SQL applied: owner report,Pending,Pending publication

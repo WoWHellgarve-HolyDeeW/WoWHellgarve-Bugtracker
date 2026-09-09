@@ -1,0 +1,71 @@
+{
+  "name": "Capture request",
+  "description": "Request a specific missing sequence after reviewing existing evidence.",
+  "title": "[Capture] ",
+  "labels": [
+    "kind:capture",
+    "status:triage"
+  ],
+  "body": [
+    {
+      "type": "input",
+      "id": "related",
+      "attributes": {
+        "label": "Related bug and coverage ID",
+        "description": "Link the issue and include its COV identifier."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "existing",
+      "attributes": {
+        "label": "Existing evidence reviewed",
+        "description": "List capture IDs, builds and what they prove. Explain what remains missing."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "sequence",
+      "attributes": {
+        "label": "Exact sequence to capture",
+        "description": "Include before/during/after, faction/class/level, difficulty and observable variants."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "outcome",
+      "attributes": {
+        "label": "What this capture must resolve",
+        "description": "State the missing behavior or data, without guessing packet fields."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "build",
+      "attributes": {
+        "label": "Observed retail build",
+        "description": "Complete when captured. Capturing a new build does not authorize a realm build update."
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "delivery",
+      "attributes": {
+        "label": "Capture IDs and observations",
+        "description": "Claim the request in a comment before capturing. Store original PKTs privately and record date, build, steps and observed results."
+      }
+    }
+  ]
+}
