@@ -3,8 +3,7 @@
   "description": "Propose a workflow, UI change or custom realm rule.",
   "title": "[Request] ",
   "labels": [
-    "kind:request",
-    "status:triage"
+    "suggestion"
   ],
   "body": [
     {

@@ -1,26 +1,26 @@
-Local ID,Issue,Title,GitHub state,Workflow status,Priority,Cause,Evidence,Assigned to,Coverage ID,Updated UTC,GitHub URL
-HG-QA-001,1,Login disconnects intermittently,open,needs-reproduction,P0,unknown,not-applicable,,COV-01,2026-09-09T15:34:11Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/1
-HG-QA-002,2,DK cannot interact with Instructor Razuvious,open,needs-reproduction,P1,unknown,unreviewed,,COV-02,2026-09-09T15:34:12Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/2
-HG-QA-003,3,Mardum introduction has no available quests,open,needs-reproduction,P1,unknown,unreviewed,,COV-03,2026-09-09T15:34:12Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/3
-HG-QA-004,4,Exile's Reach quest interactions block progression,open,needs-reproduction,P1,unknown,unreviewed,,COV-04,2026-09-09T15:34:13Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/4
-HG-QA-005,5,Level 10 LFG queue or teleport fails,open,needs-reproduction,P1,unknown,unreviewed,,COV-05,2026-09-09T15:34:14Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/5
-HG-QA-006,6,Temple of the Jade Serpent spawns rejected,open,retest,P1,port-db,located,,COV-06,2026-09-09T15:34:15Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/6
-HG-QA-007,7,Midnight quest is not automatically offered at level 80,open,needs-reproduction,P1,unknown,partial,,COV-07,2026-09-09T15:34:16Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/7
-HG-QA-008,8,Cannot accept Midnight from the Adventure Guide,open,deployment,P1,core,located,,COV-08,2026-09-09T15:34:16Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/8
-HG-QA-009,9,Campsite groups are not saved,open,investigating,P2,missing-implementation,located; review-existing,,COV-09,2026-09-09T15:34:17Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/9
-HG-QA-010,10,"Trading Post purchase, refund and freeze are incomplete",open,investigating,P2,missing-implementation,partial,,COV-10,2026-09-09T15:34:18Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/10
-HG-QA-011,11,QA route to TWW and Midnight,open,decision,P1,product-request,not-applicable,,,2026-09-09T15:34:19Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/11
-HG-QA-012,12,Four additional bag slots without authenticator,open,decision,P3,product-request,not-applicable,,,2026-09-09T15:34:19Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/12
-HG-QA-013,13,Replace Body 1 and Body 2 UI labels,open,decision,P3,product-request,not-applicable,,,2026-09-09T15:34:20Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/13
-HG-QA-014,14,Publish the staff tracker,closed,verified,P2,product-request,not-applicable,,,2026-09-09T15:39:30Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/14
-HG-QA-015,15,DH introductory Vault spawns rejected,open,retest,P1,port-db,located,,COV-11,2026-09-09T15:34:22Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/15
-REQ-01,16,[Capture] Midnight offer,open,investigating,P1,,review-existing,,COV-07,2026-09-09T15:34:23Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/16
-REQ-02,17,[Capture] Campsite groups,open,investigating,P2,,review-existing,,COV-09,2026-09-09T15:34:24Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/17
-REQ-03,18,[Capture] Trading Post missing actions,open,ready-to-capture,P2,,partial,,COV-10,2026-09-09T15:34:24Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/18
-REQ-04,19,[Capture] Native Mythic+ full lifecycle,open,investigating,P1,,review-existing,,COV-12,2026-09-09T15:34:25Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/19
-REQ-05,20,[Capture] Timewalking variants,open,investigating,P1,,review-existing,,COV-13,2026-09-09T15:34:26Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/20
-REQ-06,21,[Capture] Chromie missing introductions,open,ready-to-capture,P1,,partial,,COV-14,2026-09-09T15:34:27Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/21
-REQ-07,22,[Capture] Quest 64864 full sequence,open,investigating,P1,,review-existing,,COV-15,2026-09-09T15:34:28Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/22
-REQ-08,23,[Capture] Exact quarantined gossip IDs,open,ready-to-capture,P2,,partial,,COV-16,2026-09-09T15:34:28Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/23
-REQ-09,24,[Capture] ReShape observable non-zero variants,open,ready-to-capture,P2,,partial,,COV-17,2026-09-09T15:34:29Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/24
-REQ-10,25,[Capture] PvP and calendar observable variants,open,ready-to-capture,P2,,partial,,COV-18,2026-09-09T15:34:30Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/25
+Local ID,Issue,Title,Type,GitHub state,Status,Assigned to,Coverage ID,Updated UTC,GitHub URL
+HG-QA-001,1,Login disconnects intermittently,bug,open,needs info,,COV-01,2026-09-09T15:45:51Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/1
+HG-QA-002,2,DK cannot interact with Instructor Razuvious,bug,open,needs info,,COV-02,2026-09-09T15:45:49Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/2
+HG-QA-003,3,Mardum introduction has no available quests,bug,open,needs info,,COV-03,2026-09-09T15:45:47Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/3
+HG-QA-004,4,Exile's Reach quest interactions block progression,bug,open,needs info,,COV-04,2026-09-09T15:45:45Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/4
+HG-QA-005,5,Level 10 LFG queue or teleport fails,bug,open,needs info,,COV-05,2026-09-09T15:45:43Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/5
+HG-QA-006,6,Temple of the Jade Serpent spawns rejected,bug,open,ready to test,,COV-06,2026-09-09T15:45:40Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/6
+HG-QA-007,7,Midnight quest is not automatically offered at level 80,bug,open,needs info,,COV-07,2026-09-09T15:45:38Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/7
+HG-QA-008,8,Cannot accept Midnight from the Adventure Guide,bug,open,in progress,,COV-08,2026-09-09T15:45:36Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/8
+HG-QA-009,9,Campsite groups are not saved,bug,open,in progress,,COV-09,2026-09-09T15:45:34Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/9
+HG-QA-010,10,"Trading Post purchase, refund and freeze are incomplete",bug,open,in progress,,COV-10,2026-09-09T15:45:33Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/10
+HG-QA-011,11,QA route to TWW and Midnight,suggestion,open,Open,,,2026-09-09T15:45:31Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/11
+HG-QA-012,12,Four additional bag slots without authenticator,suggestion,open,Open,,,2026-09-09T15:45:30Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/12
+HG-QA-013,13,Replace Body 1 and Body 2 UI labels,suggestion,open,Open,,,2026-09-09T15:45:28Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/13
+HG-QA-014,14,Publish the staff tracker,suggestion,closed,Closed,,,2026-09-09T15:45:27Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/14
+HG-QA-015,15,DH introductory Vault spawns rejected,bug,open,ready to test,,COV-11,2026-09-09T15:45:25Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/15
+REQ-01,16,[Capture] Midnight offer,sniff,open,in progress,,COV-07,2026-09-09T15:45:23Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/16
+REQ-02,17,[Capture] Campsite groups,sniff,open,in progress,,COV-09,2026-09-09T15:45:21Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/17
+REQ-03,18,[Capture] Trading Post missing actions,sniff,open,Open,,COV-10,2026-09-09T15:45:20Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/18
+REQ-04,19,[Capture] Native Mythic+ full lifecycle,sniff,open,in progress,,COV-12,2026-09-09T15:45:18Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/19
+REQ-05,20,[Capture] Timewalking variants,sniff,open,in progress,,COV-13,2026-09-09T15:45:16Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/20
+REQ-06,21,[Capture] Chromie missing introductions,sniff,open,Open,,COV-14,2026-09-09T15:45:14Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/21
+REQ-07,22,[Capture] Quest 64864 full sequence,sniff,open,in progress,,COV-15,2026-09-09T15:45:11Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/22
+REQ-08,23,[Capture] Exact quarantined gossip IDs,sniff,open,Open,,COV-16,2026-09-09T15:45:09Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/23
+REQ-09,24,[Capture] ReShape observable non-zero variants,sniff,open,Open,,COV-17,2026-09-09T15:45:08Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/24
+REQ-10,25,[Capture] PvP and calendar observable variants,sniff,open,Open,,COV-18,2026-09-09T15:45:06Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/25

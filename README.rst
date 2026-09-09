@@ -6,9 +6,9 @@ Midnight is the current priority. Client target: **69587**.
 
 * `Report a bug or request <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/new/choose>`_
 * `All reports <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues>`_
-* `Needs reproduction <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues?q=is%3Aopen+label%3A%22status%3Aneeds-reproduction%22>`_
-* `Ready for staff retest <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues?q=is%3Aopen+label%3A%22status%3Aretest%22>`_
-* `Capture requests <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues?q=is%3Aopen+label%3A%22kind%3Acapture%22>`_
+* `Needs info <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues?q=is%3Aopen+label%3A%22needs+info%22>`_
+* `Ready to test <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues?q=is%3Aopen+label%3A%22ready+to+test%22>`_
+* `Sniffs <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues?q=is%3Aopen+label%3Asniff>`_
 * `Coverage by scenario <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/blob/main/coverage/scenarios.csv>`_
 * `Existing capture catalogue <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/blob/main/coverage/captures.csv>`_
 * `Capture-to-scenario evidence links <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/blob/main/coverage/evidence-links.csv>`_
@@ -29,17 +29,14 @@ be added explicitly; reporting does not require access to the core repository.
 
 For triage and fixes
 -------------------
-Keep workflow status, cause and evidence separate:
+Use one type label and, when useful, one status label:
 
-* Workflow: triage, needs reproduction, investigating, blocked, coding,
-  awaiting deployment, retest, verified, or needs decision.
-* Cause: unknown, core logic, port/database mapping, missing implementation,
-  parser, missing data, configuration or a product request.
-* Evidence: unreviewed, located, partial, missing after review, or not applicable.
+* **bug**, **suggestion** or **sniff** describes the report.
+* **needs info**, **in progress** or **ready to test** shows the next stage.
 
-Labels are the current issue state. The imported issue text records the initial
-triage and its date. Update labels and add a dated finding when new evidence
-changes the diagnosis. Keep one label per status, priority and cause.
+GitHub's Open/Closed state shows whether the report is resolved. Keep technical
+findings, evidence, priority and the fix revision in the description or comments.
+The staff reports what happened; maintainers handle the technical investigation.
 
 Search existing captures, DB2, legacy databases and code before requesting more
 sniffs. A parser failure is different from missing capture data. Link the bug,

@@ -3,8 +3,7 @@
   "description": "Request a specific missing sequence after reviewing existing evidence.",
   "title": "[Capture] ",
   "labels": [
-    "kind:capture",
-    "status:triage"
+    "sniff"
   ],
   "body": [
     {

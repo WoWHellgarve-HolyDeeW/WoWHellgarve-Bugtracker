@@ -3,8 +3,7 @@
   "description": "Report one reproducible problem on WoWHellgarve.",
   "title": "[Bug] ",
   "labels": [
-    "kind:bug",
-    "status:triage"
+    "bug"
   ],
   "body": [
     {

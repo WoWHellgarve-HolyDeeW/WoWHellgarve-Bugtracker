@@ -40,18 +40,20 @@ def main():
     rows=[];request_rows=[];by_local={}
     for issue in issues:
         labels=[x['name'] for x in issue['labels']]
-        def values(prefix):return '; '.join(sorted(x[len(prefix):] for x in labels if x.startswith(prefix)))
+        issue_type='; '.join(x for x in ['bug','suggestion','sniff'] if x in labels)
+        workflow_status='; '.join(x for x in ['needs info','in progress','ready to test'] if x in labels)
+        display_status='Closed' if issue['state']=='closed' else workflow_status or 'Open'
         text=issue.get('body') or ''
         ident=by_number.get(issue['number'],'GH-'+str(issue['number']))
         cov=re.search(r'\bCOV-\d+\b',text)
         coverage=cov.group(0) if cov else ''
         assignees='; '.join(x['login'] for x in issue['assignees'])
-        row=[ident,issue['number'],issue['title'],issue['state'],values('status:'),values('priority:'),values('cause:'),values('evidence:'),assignees,coverage,issue['updated_at'],issue['html_url']]
-        rows.append(row);by_local[ident]={'url':issue['html_url'],'state':issue['state'],'status':values('status:')}
-        if 'kind:capture' in labels:
-            request_rows.append([ident,coverage,issue['title'],values('priority:'),values('status:'),assignees,issue['state'],issue['updated_at'],issue['html_url']])
-    write_csv('reports/issues.csv',['Local ID','Issue','Title','GitHub state','Workflow status','Priority','Cause','Evidence','Assigned to','Coverage ID','Updated UTC','GitHub URL'],rows)
-    write_csv('coverage/requests.csv',['Request ID','Coverage ID','Subject','Priority','Workflow status','Assigned to','GitHub state','Updated UTC','GitHub URL'],request_rows)
+        row=[ident,issue['number'],issue['title'],issue_type,issue['state'],display_status,assignees,coverage,issue['updated_at'],issue['html_url']]
+        rows.append(row);by_local[ident]={'url':issue['html_url'],'state':issue['state'],'status':display_status}
+        if 'sniff' in labels:
+            request_rows.append([ident,coverage,issue['title'],display_status,assignees,issue['state'],issue['updated_at'],issue['html_url']])
+    write_csv('reports/issues.csv',['Local ID','Issue','Title','Type','GitHub state','Status','Assigned to','Coverage ID','Updated UTC','GitHub URL'],rows)
+    write_csv('coverage/requests.csv',['Request ID','Coverage ID','Subject','Status','Assigned to','GitHub state','Updated UTC','GitHub URL'],request_rows)
     coverage_file=ROOT/'coverage/scenarios.csv'
     with coverage_file.open(encoding='utf-8',newline='') as stream:
         reader=csv.DictReader(stream);headers=list(reader.fieldnames);coverage_rows=list(reader)

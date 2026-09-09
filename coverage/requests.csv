@@ -1,11 +1,11 @@
-Request ID,Coverage ID,Subject,Priority,Workflow status,Assigned to,GitHub state,Updated UTC,GitHub URL
-REQ-01,COV-07,[Capture] Midnight offer,P1,investigating,,open,2026-09-09T15:34:23Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/16
-REQ-02,COV-09,[Capture] Campsite groups,P2,investigating,,open,2026-09-09T15:34:24Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/17
-REQ-03,COV-10,[Capture] Trading Post missing actions,P2,ready-to-capture,,open,2026-09-09T15:34:24Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/18
-REQ-04,COV-12,[Capture] Native Mythic+ full lifecycle,P1,investigating,,open,2026-09-09T15:34:25Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/19
-REQ-05,COV-13,[Capture] Timewalking variants,P1,investigating,,open,2026-09-09T15:34:26Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/20
-REQ-06,COV-14,[Capture] Chromie missing introductions,P1,ready-to-capture,,open,2026-09-09T15:34:27Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/21
-REQ-07,COV-15,[Capture] Quest 64864 full sequence,P1,investigating,,open,2026-09-09T15:34:28Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/22
-REQ-08,COV-16,[Capture] Exact quarantined gossip IDs,P2,ready-to-capture,,open,2026-09-09T15:34:28Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/23
-REQ-09,COV-17,[Capture] ReShape observable non-zero variants,P2,ready-to-capture,,open,2026-09-09T15:34:29Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/24
-REQ-10,COV-18,[Capture] PvP and calendar observable variants,P2,ready-to-capture,,open,2026-09-09T15:34:30Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/25
+Request ID,Coverage ID,Subject,Status,Assigned to,GitHub state,Updated UTC,GitHub URL
+REQ-01,COV-07,[Capture] Midnight offer,in progress,,open,2026-09-09T15:45:23Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/16
+REQ-02,COV-09,[Capture] Campsite groups,in progress,,open,2026-09-09T15:45:21Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/17
+REQ-03,COV-10,[Capture] Trading Post missing actions,Open,,open,2026-09-09T15:45:20Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/18
+REQ-04,COV-12,[Capture] Native Mythic+ full lifecycle,in progress,,open,2026-09-09T15:45:18Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/19
+REQ-05,COV-13,[Capture] Timewalking variants,in progress,,open,2026-09-09T15:45:16Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/20
+REQ-06,COV-14,[Capture] Chromie missing introductions,Open,,open,2026-09-09T15:45:14Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/21
+REQ-07,COV-15,[Capture] Quest 64864 full sequence,in progress,,open,2026-09-09T15:45:11Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/22
+REQ-08,COV-16,[Capture] Exact quarantined gossip IDs,Open,,open,2026-09-09T15:45:09Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/23
+REQ-09,COV-17,[Capture] ReShape observable non-zero variants,Open,,open,2026-09-09T15:45:08Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/24
+REQ-10,COV-18,[Capture] PvP and calendar observable variants,Open,,open,2026-09-09T15:45:06Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/25

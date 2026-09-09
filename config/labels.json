@@ -1,0 +1,8 @@
+[
+  {"name":"bug","color":"D73A4A","description":"A problem with the game or service."},
+  {"name":"suggestion","color":"A2EEEF","description":"A proposed improvement or realm rule."},
+  {"name":"sniff","color":"7057FF","description":"A capture request or review of existing sniffs."},
+  {"name":"needs info","color":"FBCA04","description":"More details or reproduction steps are needed."},
+  {"name":"in progress","color":"0075CA","description":"Under investigation, being fixed or awaiting installation."},
+  {"name":"ready to test","color":"0E8A16","description":"The fix is ready for staff to verify."}
+]
