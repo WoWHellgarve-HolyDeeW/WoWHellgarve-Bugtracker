@@ -13,7 +13,7 @@ Midnight is the current priority. Client target: **69587**.
 * `Existing capture catalogue <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/blob/main/coverage/captures.csv>`_
 * `Capture-to-scenario evidence links <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/blob/main/coverage/evidence-links.csv>`_
 * `Capture request table <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/blob/main/coverage/requests.csv>`_
-* `Issue table <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/blob/main/reports/issues.csv>`_
+* `Issue table snapshot <https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/blob/main/reports/issues.csv>`_
 
 For staff
 ---------
@@ -57,8 +57,10 @@ The capture links currently identify campsite/purchase requests located in the
 full-pass inventory. They do not certify those systems' payloads or gameplay.
 
 The coverage tables are curated by maintainers through GitHub edits or pull
-requests. The issue table is exported from live issues by the repository's
-issue-event workflow. Never maintain a separate manual issue status in Excel.
+requests. Issues and labels show the live state. CSV tables are a dated snapshot;
+automatic export is prepared but currently inactive. Maintainers can refresh
+the tables with ``python3 scripts/export_tracker.py`` and commit the result.
+Never maintain a separate manual issue status in Excel.
 
 Keep original PKTs, authentication logs, passwords, tokens and private library
 paths outside this repository. Share raw captures through the existing private
