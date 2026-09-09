@@ -1,0 +1,30 @@
+name: Update shared issue tables
+on:
+  issues:
+    types: [opened, edited, closed, reopened, labeled, unlabeled, assigned, unassigned]
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: read
+concurrency:
+  group: shared-qa-tables
+  cancel-in-progress: false
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Export live reports
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/export_tracker.py
+      - name: Commit changed tables
+        run: |
+          if git diff --quiet -- reports/issues.csv coverage/requests.csv coverage/scenarios.csv; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/issues.csv coverage/requests.csv coverage/scenarios.csv
+          git commit -m 'Update shared issue tables'
+          git push

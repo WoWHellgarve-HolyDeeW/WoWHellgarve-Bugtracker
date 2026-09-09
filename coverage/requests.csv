@@ -1,11 +1,11 @@
-Request ID,Coverage ID,Priority,Queue status,Subject,Required sequence / variant,Existing evidence,Assigned to,Observed build,Capture IDs,Observed date
-REQ-01,COV-07,P1,Search existing,Midnight offer,"Eligible/ineligible level-80 characters; both factions. Record entry trigger, offered quest and acceptance.",Unknown,,,,
-REQ-02,COV-09,P2,Review existing,Campsite groups,"Inspect existing 321 requests. Only if ambiguous: isolate create/rename/reorder/members/scene, relog and delete.",321 requests located,,,,
-REQ-03,COV-10,P2,Ready to capture,Trading Post missing actions,"Refund, freeze/unfreeze and month rollover with catalogue, currency and inventory before/after. Review existing purchases first.",Seven purchases; refund/freeze not found in queried inventory,,,,
-REQ-04,COV-12,P1,Search existing,Native Mythic+ full lifecycle,"Key insertion, group/instance, countdown, deaths, affixes, reset, timed/untimed completion, key changes and actual rewards.",Partial legacy/current evidence,,,,
-REQ-05,COV-13,P1,Search existing,Timewalking variants,Event opens/closes; different levels; raid stats/items/spells/pets before/during/after; death/relog; actual quest rewards.,Partial; current variants need review,,,,
-REQ-06,COV-14,P1,Ready to capture,Chromie missing introductions,"Both factions; eligible/blocked character; conversations 14405,14304,14278,14303,14300,14406,20312,26049; accept/abandon/relog.",Eight conversation templates missing,,,,
-REQ-07,COV-15,P1,Search existing,Quest 64864 full sequence,"Capture before accept through every objective and turn-in, each ally interaction, stasis/follow changes, abandon/reaccept/relog.",Partial; TALKTO objective remains unqualified,,,,
-REQ-08,COV-16,P2,Ready to capture,Exact quarantined gossip IDs,Use unresolved-ID receipts; capture actual npc_text/BroadcastText replies and menus. Do not substitute plausible dialogue.,29 missing parents in audited dataset,,,,
-REQ-09,COV-17,P2,Ready to capture,ReShape observable non-zero variants,Full before/after context around an observable shape change. Preserve original packet bytes; no assumed offsets.,1324 known tails contain only zeros after GUID,,,,
-REQ-10,COV-18,P2,Ready to capture,PvP and calendar observable variants,Separate rated PvP and scheduled-state cases. Record visible state and timestamps before/after.,Semantics remain unqualified,,,,
+Request ID,Coverage ID,Subject,Priority,Workflow status,Assigned to,GitHub state,Updated UTC,GitHub URL
+REQ-01,COV-07,[Capture] Midnight offer,P1,investigating,,open,2026-09-09T15:34:23Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/16
+REQ-02,COV-09,[Capture] Campsite groups,P2,investigating,,open,2026-09-09T15:34:24Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/17
+REQ-03,COV-10,[Capture] Trading Post missing actions,P2,ready-to-capture,,open,2026-09-09T15:34:24Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/18
+REQ-04,COV-12,[Capture] Native Mythic+ full lifecycle,P1,investigating,,open,2026-09-09T15:34:25Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/19
+REQ-05,COV-13,[Capture] Timewalking variants,P1,investigating,,open,2026-09-09T15:34:26Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/20
+REQ-06,COV-14,[Capture] Chromie missing introductions,P1,ready-to-capture,,open,2026-09-09T15:34:27Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/21
+REQ-07,COV-15,[Capture] Quest 64864 full sequence,P1,investigating,,open,2026-09-09T15:34:28Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/22
+REQ-08,COV-16,[Capture] Exact quarantined gossip IDs,P2,ready-to-capture,,open,2026-09-09T15:34:28Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/23
+REQ-09,COV-17,[Capture] ReShape observable non-zero variants,P2,ready-to-capture,,open,2026-09-09T15:34:29Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/24
+REQ-10,COV-18,[Capture] PvP and calendar observable variants,P2,ready-to-capture,,open,2026-09-09T15:34:30Z,https://github.com/WoWHellgarve-HolyDeeW/WoWHellgarve-Bugtracker/issues/25
